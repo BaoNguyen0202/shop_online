@@ -1,0 +1,11 @@
+.search input{
+    width: 507px;
+    height: 40px;
+    border-radius: 13px;
+    margin-top: 30px;
+    margin-left: 25%;
+    border: 1px solid #ececec;
+}
+input::placeholder {
+    text-indent: 10px;
+}

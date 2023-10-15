@@ -1,0 +1,43 @@
+.bag-container {
+    width: 345px;
+    height: 100vw;
+    background: #ececec;
+    float: right;
+    margin-top: -75px;
+}
+.main-product {
+    margin: 65px 0 0 0;
+}
+.product {
+    margin-bottom: 30px;
+}
+.rows{
+    display: flex;
+    justify-content: space-around;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.my-product img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.my-product div, p{
+    margin-left: 5px;
+}
+.my-product {
+    margin: 10px 10px 0 0;
+}
+.main-product h3 {
+    margin-left: 35%;
+}
+.btn-bag {
+    width: 100px;
+    height: 30px;
+    background: #bababa;
+    border-radius: 5px;
+    padding: 10px 0 0 10px;
+    margin-left: 20%;
+}

@@ -1,0 +1,33 @@
+#product-main {
+    margin: 40px 0 0 120px ;
+    width: 65vw;
+    height: 90vw;
+    background: #ececec;
+    overflow: auto;
+    position: absolute;
+}
+.rows{
+    display: flex;
+    justify-content: space-around;
+}
+.product {
+    margin-bottom: 30px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.my-product img{
+    width: 190px;
+    height: 230px;
+    border-radius: 10px;
+}
+.my-product div, p{
+    margin-left: 15px;
+}
+.price-icon {
+    justify-content: space-between;
+}
+.price-icon i {
+    margin-right: 15px;
+}
