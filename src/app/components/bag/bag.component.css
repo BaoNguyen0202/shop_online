@@ -3,10 +3,11 @@
     height: 100vw;
     background: #ececec;
     float: right;
-    margin-top: -75px;
+    margin-top: 0px;
+    border-left: 2px solid rgb(174, 170, 170);
 }
 .main-product {
-    margin: 65px 0 0 0;
+    margin: 65px 0 0 10px;
 }
 .product {
     margin-bottom: 30px;

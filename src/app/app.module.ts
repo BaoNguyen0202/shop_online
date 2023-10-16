@@ -6,12 +6,15 @@ import { MainComponent } from './components/main/main.component';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { BagComponent } from './components/bag/bag.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
-import { AccountComponent } from './components/account/account.component';
-import { DepcriptionComponent } from './components/depcription/depcription.component';
 import { CoreComponent } from './components/core/core.component';
 import { MyClickDirective } from './my-click.directive';
 import { SearchComponent } from './components/search/search.component';
 import { ProductComponent } from './components/product/product.component';
+import { BagItemComponent } from './components/bag/bag-item/bag-item.component';
+import { TotalOderComponent } from './components/bag/total-oder/total-oder.component';
+import { AddPaymentComponent } from './components/add-payment/add-payment.component';
+import { AddressComponent } from './components/checkout/address/address.component';
+import { InforComponent } from './components/checkout/infor/infor.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +22,15 @@ import { ProductComponent } from './components/product/product.component';
     ProductDetailComponent,
     BagComponent,
     CheckoutComponent,
-    AccountComponent,
-    DepcriptionComponent,
     CoreComponent,
     MyClickDirective,
     SearchComponent,
-    ProductComponent
+    ProductComponent,
+    BagItemComponent,
+    TotalOderComponent,
+    AddPaymentComponent,
+    AddressComponent,
+    InforComponent
   ],
   imports: [
     BrowserModule,

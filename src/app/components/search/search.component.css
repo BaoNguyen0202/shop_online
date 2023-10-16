@@ -5,6 +5,7 @@
     margin-top: 30px;
     margin-left: 25%;
     border: 1px solid #ececec;
+    position: absolute;
 }
 input::placeholder {
     text-indent: 10px;

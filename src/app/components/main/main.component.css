@@ -7,4 +7,6 @@ body {
     width: 100vw;
     height: 100vw;
     background: #ececec;
+    margin-top: -10px;
+    margin-left: -10px;
 }
