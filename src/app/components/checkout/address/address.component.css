@@ -60,3 +60,6 @@
 .bx {
     margin-right: 5px;
 }
+input::placeholder {
+    text-indent: 10px;
+}

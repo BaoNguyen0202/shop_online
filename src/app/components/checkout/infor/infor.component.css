@@ -1,0 +1,65 @@
+#product-main {
+    margin: 80px 0 0 30% ;
+    width: 0vw;
+    height: 100vw;
+    background: #ececec;
+    position: absolute;
+}
+#form-input {
+    padding: 40px;
+    width: 676px;
+    height: 834px;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-complete {
+    margin-left: 25px;
+    margin-top: 55px;
+    width: 596px;
+    height: 40px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 10px;
+}
+.connection {
+    margin: 35px 45px 0 25px;
+}
+.back {
+    text-decoration: underline;
+}
+.form-input input {
+    width: 596px;
+    height: 35px;
+    border-radius: 13px;
+    background-color: #FFF;
+    border: 1px solid #c7c7c7;
+    margin: 0 0 0 25px;            
+
+}
+#form-input label {
+    margin: 25px 0 0 25px;            
+}
+.form-input {
+    margin: 30px 0 30px 0;
+}
+.checkbox input {
+    width: 15px;
+    height: 15px;
+    margin-left: 25px;
+
+}
+
+.bx {
+    margin-right: 5px;
+}
+input::placeholder {
+    text-indent: 10px;
+}
