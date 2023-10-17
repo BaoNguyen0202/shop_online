@@ -32,7 +32,7 @@ import { BagCheckoutComponent } from './components/bag/bag-checkout/bag-checkout
     AddPaymentComponent,
     AddressComponent,
     InforComponent,
-    BagCheckoutComponent
+    BagCheckoutComponent,
   ],
   imports: [
     BrowserModule,

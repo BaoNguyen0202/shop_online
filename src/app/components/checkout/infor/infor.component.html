@@ -29,9 +29,24 @@
                 <div  class="checkbox" ><input type="checkbox"></div>
                 <div>Save this as your default infor</div>
             </div>
-            <button class="btn-complete"><i class='bx bxs-credit-card' ></i>Add Infor</button>
+            <div class="toast" [class.active]="isToastActive">
+                <div class="toast-content">
+                    <i class='bx bx-check-square'></i>
+                  <div class="message">
+                    <span class="text text-1">Success</span>
+                    <span class="text text-2">Payment success</span>
+                  </div>
+                </div>
+                <i class="fa-solid fa-xmark close" (click)="closeToast()"></i>
+                <div class="progress" [class.active]="isProgressActive"></div>
+              </div>
+              <div class="btn-complete" (click)="showSuccessMessage()">
+                <div class="text-complete">
+                  <i class='bx bxs-credit-card'></i>Complete
+                </div>
+              </div>
             <div class="row space-between connection">
-                <div class="back">Back</div>
+                <a href="/address"><div class="back">Back</div></a>
                 <div>
                     <i class='bx bxs-lock-alt' ></i>
                     Secure Connection

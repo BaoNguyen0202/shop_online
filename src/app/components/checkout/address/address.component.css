@@ -34,6 +34,7 @@
 }
 .back {
     text-decoration: underline;
+    color: #000;
 }
 .form-input input {
     width: 596px;
@@ -62,4 +63,15 @@
 }
 input::placeholder {
     text-indent: 10px;
+}
+a {
+    text-decoration: none; 
+    color: #ffffff;
+}
+.hidden {
+    display: none;
+  }
+.text-complete {
+    text-align: center;
+    padding-top: 10px;
 }
