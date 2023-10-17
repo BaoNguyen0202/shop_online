@@ -15,6 +15,7 @@ import { TotalOderComponent } from './components/bag/total-oder/total-oder.compo
 import { AddPaymentComponent } from './components/add-payment/add-payment.component';
 import { AddressComponent } from './components/checkout/address/address.component';
 import { InforComponent } from './components/checkout/infor/infor.component';
+import { BagCheckoutComponent } from './components/bag/bag-checkout/bag-checkout.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { InforComponent } from './components/checkout/infor/infor.component';
     TotalOderComponent,
     AddPaymentComponent,
     AddressComponent,
-    InforComponent
+    InforComponent,
+    BagCheckoutComponent
   ],
   imports: [
     BrowserModule,
