@@ -15,7 +15,6 @@ export class ProductService {
   }
   
   getProductById(productId: number): Observable<any> {
-    console.log(productId,"productID");
     
     return this.getProducts().pipe(
       map((data: any) => {
@@ -28,4 +27,3 @@ export class ProductService {
   }
   
 }
-// map((data: any) => data.products.find((product:any) => product.id === productId))
