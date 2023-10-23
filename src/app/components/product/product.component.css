@@ -35,3 +35,22 @@ a {
     text-decoration: none;
     color: #000;
 }
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cột mỗi hàng */
+    grid-gap: 20px; /* Khoảng cách giữa các sản phẩm */
+  }
+  
+  .my-product {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  
+  .price-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

@@ -1,5 +1,6 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
 
 import { AppRoutingModule } from './app-routing.module';
 import { MainComponent } from './components/main/main.component';
@@ -16,6 +17,7 @@ import { AddPaymentComponent } from './components/add-payment/add-payment.compon
 import { AddressComponent } from './components/checkout/address/address.component';
 import { InforComponent } from './components/checkout/infor/infor.component';
 import { BagCheckoutComponent } from './components/bag/bag-checkout/bag-checkout.component';
+import { ProductService } from './product.service';
 
 @NgModule({
   declarations: [
@@ -36,9 +38,10 @@ import { BagCheckoutComponent } from './components/bag/bag-checkout/bag-checkout
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule, 
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [MainComponent]
 })
 export class AppModule { }

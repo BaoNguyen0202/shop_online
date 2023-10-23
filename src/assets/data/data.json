@@ -1,0 +1,364 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "macbook.png",
+      "name": "MacBook Air M1 2023",
+      "series": "MacBook Air",
+      "price": 2099.99,
+      "description": "The MacBook Air M1 is known for its performance and portability.",
+      "describe": "The MacBook Air M1 2023 is known for its exceptional performance and sleek design. With its ultra-thin profile and high-quality Retina display, it offers a fantastic experience for on-the-go users."
+    },
+    {
+      "id": 2,
+      "image": "ip.png",
+      "name": "iPhone 14",
+      "series": "iPhone 14",
+      "price": 2199.99,
+      "description": "The iPhone 14 is a flagship smartphone with advanced features and a beautiful OLED display.",
+      "describe": "The iPhone 14 is a flagship smartphone with advanced features and a stunning OLED display. Its outstanding camera capabilities make it an excellent choice for photography enthusiasts and tech lovers."
+    },
+    {
+      "id": 3,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 2299.99,
+      "description": "The MacBook Pro is known for its power and performance, making it a top choice for professionals.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 4,
+      "image": "ip.png",
+      "name": "iPhone 14",
+      "series": "iPhone 14",
+      "price": 2199.99,
+      "description": "The iPhone 14 is a flagship smartphone with advanced features and a beautiful OLED display.",
+      "describe": "The iPhone 14 is a flagship smartphone with advanced features and a stunning OLED display. Its outstanding camera capabilities make it an excellent choice for photography enthusiasts and tech lovers."
+    },
+    {
+      "id": 5,
+      "image": "macbook.png",
+      "name": "MacBook Air M1 2023",
+      "series": "MacBook Air",
+      "price": 2099.99,
+      "description": "The MacBook Air M1 is known for its performance and portability.",
+      "describe": "The MacBook Air M1 2023 is known for its exceptional performance and sleek design. With its ultra-thin profile and high-quality Retina display, it offers a fantastic experience for on-the-go users."
+    },
+    {
+      "id": 6,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 2999.99,
+      "description": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and performance.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 7,
+      "image": "macbook.png",
+      "name": "MacBook Air M1 2023",
+      "series": "MacBook Air",
+      "price": 2099.99,
+      "description": "The MacBook Air M1 is known for its performance and portability.",
+      "describe": "The MacBook Air M1 2023 is known for its exceptional performance and sleek design. With its ultra-thin profile and high-quality Retina display, it offers a fantastic experience for on-the-go users."
+    },
+    {
+      "id": 8,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 3199.99,
+      "description": "The iPhone 15 Pro Max is designed for those who demand the best from their smartphones.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 9,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 2699.99,
+      "description": "The MacBook Pro offers unparalleled power and a stunning display, ideal for professionals.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 10,
+      "image": "ip.png",
+      "name": "iPhone 14",
+      "series": "iPhone 14",
+      "price": 2199.99,
+      "description": "The iPhone 14 is a flagship smartphone with advanced features and a beautiful OLED display.",
+      "describe": "The iPhone 14 is a flagship smartphone with advanced features and a stunning OLED display. Its outstanding camera capabilities make it an excellent choice for photography enthusiasts and tech lovers."
+    },
+    {
+      "id": 11,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 2799.99,
+      "description": "The MacBook Pro sets the standard for high-performance laptops, loved by professionals.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 12,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 3599.99,
+      "description": "The iPhone 15 Pro Max is designed to meet the needs of the most demanding users.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 13,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 2899.99,
+      "description": "The MacBook Pro is a top choice for professionals who require power and reliability.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 14,
+      "image": "ip.png",
+      "name": "iPhone 14",
+      "series": "iPhone 14",
+      "price": 2199.99,
+      "description": "The iPhone 14 is a flagship smartphone with advanced features and a beautiful OLED display.",
+      "describe": "The iPhone 14 is a flagship smartphone with advanced features and a stunning OLED display. Its outstanding camera capabilities make it an excellent choice for photography enthusiasts and tech lovers."
+    },
+    {
+      "id": 15,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 2999.99,
+      "description": "The MacBook Pro is the go-to choice for professionals who demand the best.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 16,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 3999.99,
+      "description": "The iPhone 15 Pro Max is designed for those who want it all, with top-tier features.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 17,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 3099.99,
+      "description": "The MacBook Pro is the ultimate tool for professionals, offering power and performance.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 18,
+      "image": "ip.png",
+      "name": "iPhone 14",
+      "series": "iPhone 14",
+      "price": 2199.99,
+      "description": "The iPhone 14 is a flagship smartphone with advanced features and a beautiful OLED display.",
+      "describe": "The iPhone 14 is a flagship smartphone with advanced features and a stunning OLED display. Its outstanding camera capabilities make it an excellent choice for photography enthusiasts and tech lovers."
+    },
+    {
+      "id": 19,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 3199.99,
+      "description": "The MacBook Pro is a powerhouse laptop for professionals seeking top-tier performance.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 20,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 4399.99,
+      "description": "The iPhone 15 Pro Max is the ultimate iPhone with premium features and performance.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 21,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 3299.99,
+      "description": "The MacBook Pro is a preferred choice for professionals looking for the best in performance.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 22,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 4599.99,
+      "description": "The iPhone 15 Pro Max is designed for those who demand excellence from their smartphones.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 23,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 3399.99,
+      "description": "The MacBook Pro is the choice of professionals seeking unrivaled power and features.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 24,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 4799.99,
+      "description": "The iPhone 15 Pro Max is the ultimate iPhone experience with cutting-edge features.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 25,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 3499.99,
+      "description": "The MacBook Pro is designed for professionals who need the best in power and performance.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 26,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 4999.99,
+      "description": "The iPhone 15 Pro Max is designed for those who demand excellence from their smartphones.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 27,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 3599.99,
+      "description": "The MacBook Pro sets the standard for high-performance laptops, loved by professionals.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 28,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 5199.99,
+      "description": "The iPhone 15 Pro Max is designed for those who demand perfection in a smartphone.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 29,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 3699.99,
+      "description": "The MacBook Pro is a powerhouse laptop for professionals seeking top-tier performance.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 30,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 5399.99,
+      "description": "The iPhone 15 Pro Max is the ultimate iPhone with premium features and performance.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 31,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 3799.99,
+      "description": "The MacBook Pro is the choice of professionals seeking unrivaled power and features.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 32,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 5599.99,
+      "description": "The iPhone 15 Pro Max is designed for those who demand excellence from their smartphones.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 33,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 3899.99,
+      "description": "The MacBook Pro is designed for professionals who need the best in power and performance.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 34,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 5799.99,
+      "description": "The iPhone 15 Pro Max is designed for those who demand perfection in a smartphone.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 35,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 3999.99,
+      "description": "The MacBook Pro sets the standard for high-performance laptops, loved by professionals.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 36,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 5999.99,
+      "description": "The iPhone 15 Pro Max is designed for those who demand excellence from their smartphones.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 37,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 4099.99,
+      "description": "The MacBook Pro is designed for professionals who need the best in power and performance.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 38,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 6199.99,
+      "description": "The iPhone 15 Pro Max is designed for those who demand perfection in a smartphone.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    },
+    {
+      "id": 39,
+      "image": "macbookpro.jpeg",
+      "name": "MacBook Pro",
+      "series": "MacBook Pro",
+      "price": 4199.99,
+      "description": "The MacBook Pro is designed for professionals who need the best in power and performance.",
+      "describe": "The MacBook Pro is renowned for its power and performance, making it a top choice for professionals. Its beautiful design and Retina display, along with its robust processing capabilities, make tasks a breeze."
+    },
+    {
+      "id": 40,
+      "image": "iphone.jpg",
+      "name": "iPhone 15 Pro Max",
+      "series": "iPhone 15",
+      "price": 6399.99,
+      "description": "The iPhone 15 Pro Max is designed for those who demand excellence from their smartphones.",
+      "describe": "The iPhone 15 Pro Max is the best iPhone yet, with top-of-the-line features and exceptional performance. You'll immerse yourself in the world of mobile technology excellence with it."
+    }
+  ]
+}
