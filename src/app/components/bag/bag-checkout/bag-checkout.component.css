@@ -46,3 +46,17 @@ a {
     text-decoration: none;
     color: #000;
 }
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .my-product {
+    flex-basis: calc(25% - 20px); 
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .my-product:last-child {
+    margin-right: 0;
+  }
