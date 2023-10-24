@@ -27,7 +27,18 @@
             <div class="product-image">
             <img src="assets/images/qr.png" alt="">
         </div>
-        <a href="address"><button class="btn-complete"><i class='bx bxs-credit-card' ></i>Coplete</button></a>
+        <div class="toast" [class.active]="isToastActive">
+            <div class="toast-content">
+                <i class='bx bx-check-square'></i>
+              <div class="message">
+                <span class="text text-1">Success</span>
+                <span class="text text-2">Payment success</span>
+              </div>
+            </div>
+            <i class="fa-solid fa-xmark close" (click)="closeToast()"></i>
+            <div class="progress" [class.active]="isProgressActive"></div>
+          </div>
+       <button class="btn-complete" (click)="showSuccessMessage()"><i class='bx bxs-credit-card' ></i>Coplete</button>
         <div class="row space-between connection">
             <a href="/checkout"><div class="back">Back</div></a>
             <div>

@@ -2,38 +2,51 @@
 
 <div id="product-main">
     <div id="form-input">
-        <form action="">
+        <form action="javascript:void(0);">
             <div class="form-input">
-                <label for="">Shipping name</label><br><br>
+                <label for="shipping-name">Shipping name</label><br><br>
                 <input type="text" id="shipping-name" class="shipping-name" name="shipping-name"
                     placeholder="Bao Nguyen"><br>
             </div>
             <div class="form-input">
-                <label for="">Street name</label><br><br>
+                <label for="street-name">Street name</label><br><br>
                 <input type="text" id="street-name" class="street-name" name="street-name"
                     placeholder="123 ham tu liem"><br>
             </div>
             <div class="form-input">
-                <label for="">City</label><br><br>
+                <label for="city">City</label><br><br>
                 <input type="text" id="city" class="city" name="city" placeholder="Ha noi"><br>
             </div>
             <div class="form-input">
-                <label for="">State/Province</label><br><br>
+                <label for="state">State/Province</label><br><br>
                 <input type="text" id="state" class="state" name="state" placeholder="Ha noi"><br>
             </div>
             <div class="form-input">
-                <label for="">Country</label><br><br>
+                <label for="country">Country</label><br><br>
                 <input type="text" id="country" class="country" name="country" placeholder="Việt Nam"><br>
             </div>
             <div class="row">
-                <div  class="checkbox" ><input type="checkbox"></div>
+                <div class="checkbox"><input type="checkbox"></div>
                 <div>Save this as your default address</div>
             </div>
-            <div class="btn-complete">
-                <div class="text-complete">
-                  <i class='bx bxs-credit-card'></i>Add address
+            <div class="toast" [class.active]="isToastActive">
+                <div class="toast-content">
+                    <i class='bx bx-check-square'></i>
+                  <div class="message">
+                    <span class="text text-1">Success</span>
+                    <span class="text text-2">Payment success</span>
+                  </div>
                 </div>
+                <i class="fa-solid fa-xmark close" (click)="closeToast()"></i>
+                <div class="progress" [class.active]="isProgressActive"></div>
               </div>
+            <a href="javascript:void(0);" (click)="addAddress() ">
+                <div class="btn-complete">
+                    <div class="text-complete">
+                        <i class='bx bxs-credit-card'></i>Add address
+                    </div>
+                </div>
+            </a>
             <div class="row space-between connection">
                 <a href="/payment"><div class="back">Back</div></a>
                 <div>

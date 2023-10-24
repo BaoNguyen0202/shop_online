@@ -4,27 +4,52 @@
 />
 <app-total-oder></app-total-oder>
 <div id="product-main">
-    <div id="address">
+    <div id="address" *ngIf="hasAddress">
         <div class="content">
             <h1>S H I P P I N G  A D D R E S S</h1>
             <div class="row space-beetwen">
-                <div class="name">Bao Nguyen</div>
-                <button class="btn-change">Change</button>
+                <div class="name">{{ shippingName }}</div>
+                <a href="address"><button class="btn-change">Change</button></a>
             </div>
-            <div class="address">123 Nam tu liem</div>
-            <div class="capital">Ha Noi</div>
-            <div class="country">Việt Nam</div>
+            <div class="address">{{ streetName }}</div>
+            <div class="capital">{{ city }}</div>
+            <div class="country">{{ country }}</div>
         </div>
     </div>
-    <div id="info">
+    
+    <div id="address" *ngIf="!hasAddress">
+        <div class="content">
+            <h1>S H I P P I N G  A D D R E S S</h1>
+            <div class="row space-beetwen">
+                <div class="name">{{ shippingAddressData.name }}</div>
+                <a href="address"><button class="btn-change">Change</button></a>
+            </div>
+            <div class="address">{{ shippingAddressData.address }}</div>
+            <div class="capital">{{ shippingAddressData.city }}</div>
+            <div class="country">{{ shippingAddressData.country }}</div>
+        </div>
+    </div>
+    
+    <div id="info" *ngIf="hasInfo">
         <div class="content">
         <h1>I N  F O R</h1>
             <div class="row space-beetwen">
-                <div class="name">bao@gmail.com</div>
-                <button class="btn-change">Change</button>
+                <div class="name">{{gmail}}</div>
+                <a href="infor"><button class="btn-change">Change</button></a>
             </div>
-            <div class="address">0333888333</div>
-            <div class="capital">bao</div>
+            <div class="address">{{phone}}</div>
+            <div class="capital">{{firstName}}</div>
+        </div>
+    </div>
+    <div id="info" *ngIf="!hasInfo">
+        <div class="content">
+        <h1>I N  F O R</h1>
+            <div class="row space-beetwen">
+                <div class="name">{{shippingInfoData.gmail}}</div>
+                <a href="infor"><button class="btn-change">Change</button></a>
+            </div>
+            <div class="address">{{shippingInfoData.phone}}</div>
+            <div class="capital">{{shippingInfoData.lastName}}</div>
         </div>
     </div>
     <div id="review-bag">

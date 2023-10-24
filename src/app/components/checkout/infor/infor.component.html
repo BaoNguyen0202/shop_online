@@ -2,27 +2,27 @@
 
 <div id="product-main">
     <div id="form-input">
-        <form action="">
+        <form action="javascript:void(0);">
             <div class="form-input">
-                <label for="">Gmail</label><br><br>
+                <label for="gmail">Gmail</label><br><br>
                 <input type="email" id="gmail" class="gmail" name="gmail"
                     placeholder="bao@gmail.com"><br>
             </div>
             <div class="form-input">
-                <label for="">Phone</label><br><br>
+                <label for="phone">Phone</label><br><br>
                 <input type="text" id="phone" class="phone" name="phone"
                     placeholder="0333888333"><br>
             </div>
             <div class="form-input">
-                <label for="">First name</label><br><br>
+                <label for="first-name">First name</label><br><br>
                 <input type="text" id="first-name" class="first-name" name="first-name" placeholder="Bao"><br>
             </div>
             <div class="form-input">
-                <label for="">Last name</label><br><br>
+                <label for="last-name">Last name</label><br><br>
                 <input type="text" id="last-name" class="last-name" name="last-name" placeholder="Nguyen"><br>
             </div>
             <div class="form-input">
-                <label for="">Birth day</label><br><br>
+                <label for="date">Birth day</label><br><br>
                 <input type="date" id="date" class="date" name="date" placeholder="MM/DD/YYYY"><br>
             </div>
             <div class="row">
@@ -34,17 +34,17 @@
                     <i class='bx bx-check-square'></i>
                   <div class="message">
                     <span class="text text-1">Success</span>
-                    <span class="text text-2">Payment success</span>
+                    <span class="text text-2">add infor Success</span>
                   </div>
                 </div>
                 <i class="fa-solid fa-xmark close" (click)="closeToast()"></i>
                 <div class="progress" [class.active]="isProgressActive"></div>
               </div>
-              <div class="btn-complete" (click)="showSuccessMessage()">
+              <a href="javascript:void(0);" (click)="addInfor()"><div class="btn-complete">
                 <div class="text-complete">
                   <i class='bx bxs-credit-card'></i>Complete
                 </div>
-              </div>
+              </div></a>
             <div class="row space-between connection">
                 <a href="/address"><div class="back">Back</div></a>
                 <div>
