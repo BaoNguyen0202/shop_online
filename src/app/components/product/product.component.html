@@ -5,6 +5,11 @@
   <input type="text" class="form-control" placeholder="iphone macbook apple watch"  (input)="onSearchInput($event)">
 </div>
   <div id="product-main">
+    <div class="sorting">
+      <button><i (click)="sortBy('name')" class='bx bx-text' ></i></button>
+      <i class='bx bx-sort' style="margin-top: 5px;"></i>
+      <button><i (click)="sortBy('price')" class='bx bx-dollar-circle' ></i></button>
+    </div>
     <div id="product" class="product-grid">
       <div class="my-product" *ngFor="let product of filteredProducts">
         <img [src]="'assets/images/' + product.image" alt="{{ product.name }}">

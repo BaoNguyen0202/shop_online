@@ -9,7 +9,7 @@ import { ProductService } from 'src/app/product.service';
 export class ProductComponent implements OnInit {
   products: any[] = [];
   filteredProducts: any[] = [];
-
+  sortOrder: string = 'asc';
   constructor(private productService: ProductService) { }
 
   ngOnInit() {
@@ -31,6 +31,16 @@ export class ProductComponent implements OnInit {
       return productName.includes(searchTerm) || productPrice.includes(searchTerm);
     });
   }
-  
+  sortBy(key: string) {
+    this.sortOrder = this.sortOrder === 'asc' ? 'desc' : 'asc';
+
+    this.filteredProducts = [...this.products].sort((a, b) => {
+      if (this.sortOrder === 'asc') {
+        return a[key] > b[key] ? 1 : -1;
+      } else {
+        return a[key] < b[key] ? 1 : -1;
+      }
+    });
+  }
   
 }

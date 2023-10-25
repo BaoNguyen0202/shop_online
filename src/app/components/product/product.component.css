@@ -66,3 +66,16 @@ a {
 input::placeholder {
     text-indent: 10px;
 }
+.sorting {
+    display: flex;
+    justify-content: end;
+}
+.sorting button {
+    width: 40px;
+    background: #FFF;
+    margin: 5px;
+    border-radius: 5px;
+}
+.sorting button:active{
+    background-color: rgb(125, 125, 224);
+  }
