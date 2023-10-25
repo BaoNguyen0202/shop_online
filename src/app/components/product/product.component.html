@@ -1,10 +1,12 @@
 <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 <app-core></app-core>
-<app-search></app-search>
-  <app-bag></app-bag>
+<app-bag></app-bag>
+<div class="search">
+  <input type="text" class="form-control" placeholder="iphone macbook apple watch"  (input)="onSearchInput($event)">
+</div>
   <div id="product-main">
     <div id="product" class="product-grid">
-      <div class="my-product" *ngFor="let product of products">
+      <div class="my-product" *ngFor="let product of filteredProducts">
         <img [src]="'assets/images/' + product.image" alt="{{ product.name }}">
         <div>{{ product.name }}</div>
         <p>{{ product.series }}</p>
