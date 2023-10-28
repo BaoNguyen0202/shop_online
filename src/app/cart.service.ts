@@ -15,6 +15,7 @@ interface Product {
 })
 export class CartService {
   items: Product[] = [];
+  
 
   constructor() {
     this.loadItemsFromLocalStorage();
@@ -29,14 +30,14 @@ export class CartService {
     return this.items;
   }
 
-  private loadItemsFromLocalStorage() {
+  public  loadItemsFromLocalStorage() {
     const storedItems = localStorage.getItem('cartItems');
     if (storedItems) {
       this.items = JSON.parse(storedItems);
     }
   }
 
-  private saveItemsToLocalStorage() {
+  public  saveItemsToLocalStorage() {
     localStorage.setItem('cartItems', JSON.stringify(this.items));
   }
 }

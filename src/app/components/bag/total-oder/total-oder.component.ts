@@ -44,7 +44,7 @@ export class TotalOderComponent {
     const fixtotal = fix.toFixed(2)
     return fixtotal; 
   }
-  getTotal() {
+  public getTotal() {
     const subtotal = this.getSubtotal();
     const shippingCost = this.getShippingCost();
     const tax = this.getTax();

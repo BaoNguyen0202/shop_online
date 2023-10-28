@@ -18,25 +18,29 @@ export class AddressComponent {
     let city = (document.getElementById('city') as HTMLInputElement).value;
     let state = (document.getElementById('state') as HTMLInputElement).value;
     let country = (document.getElementById('country') as HTMLInputElement).value;
-
-    const newAddress = {
-      shippingName: shippingName,
-      streetName: streetName,
-      city: city,
-      state: state,
-      country: country,
-    };
-
-    this.informationService.addAddress(newAddress);
+    let check = shippingName.length && streetName.length && city.length && state.length && country.length > 0;
+    if(check) {
+      const newAddress = {
+        shippingName: shippingName,
+        streetName: streetName,
+        city: city,
+        state: state,
+        country: country,
+      };
   
-    shippingName = '';
-    streetName = '';
-    city = '';
-    state = '';
-    country = '';
-  
-    console.log(this.informationService.getAddresses());
-    this.showSuccessMessage();
+      this.informationService.addAddress(newAddress);
+    
+      shippingName = '';
+      streetName = '';
+      city = '';
+      state = '';
+      country = '';
+    
+      console.log(this.informationService.getAddresses());
+      this.showSuccessMessage();
+    }else {
+      alert("Please complete all information")
+    }
   }
 
   isToastActive: boolean = false;

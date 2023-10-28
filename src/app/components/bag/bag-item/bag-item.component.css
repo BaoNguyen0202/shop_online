@@ -16,6 +16,13 @@
     padding: 34px 10px 0px 10px;
     border-radius: 21px;
     margin-bottom: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#product-content:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    background: #dce9ec;
 }
 .product-image img{
     width: 200px;

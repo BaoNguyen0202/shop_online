@@ -51,12 +51,19 @@ a {
     flex-wrap: wrap;
   }
   
-  .my-product {
+.my-product {
     flex-basis: calc(25% - 20px); 
     margin-right: 20px;
     margin-bottom: 20px;
-  }
+    transition: transform 0.3s, box-shadow 0.3s;
+}
   
-  .my-product:last-child {
+.my-product:last-child {
     margin-right: 0;
-  }
+}
+.my-product:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1; 
+    background: #dce9ec;
+}

@@ -9,7 +9,7 @@ import { InformationService } from 'src/app/information.service';
 })
 export class InforComponent {
   addinfo: any[] = [];
-
+  
   constructor(private informationService: InformationService, private router: Router) { }
 
   addInfor() {
@@ -18,7 +18,8 @@ export class InforComponent {
     let firstName = (document.getElementById('first-name') as HTMLInputElement).value;
     let LastName = (document.getElementById('last-name') as HTMLInputElement).value;
     let birthDay = (document.getElementById('date') as HTMLInputElement).value;
-
+    let check = gmail.length && phone.length && firstName.length && LastName.length && birthDay.length > 0 ;
+   if(check){
     const newInfo = {
       gmail: gmail,
       phone: phone,
@@ -37,6 +38,9 @@ export class InforComponent {
   
     console.log(this.informationService.getInfor(),'123');
     this.showSuccessMessage();
+   }else{
+    alert("Please complete all information")
+   }
   }
 
 
